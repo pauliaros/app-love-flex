@@ -104,7 +104,6 @@ a:hover {
 #work{
   text-align: center;
   padding: 70px;
-
 }
 
 .img-galeria img{
@@ -118,8 +117,7 @@ a:hover {
   justify-content: space-around;
   display: flex;
   align-items: center;
- 
-}
+ }
 
 p{
   text-align: center;
@@ -133,5 +131,4 @@ footer{
   color: white;
   justify-content: center;
 	align-items: center;
-  
-}
+  }
