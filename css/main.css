@@ -101,6 +101,22 @@ a:hover {
 	font-weight: bold;
 }
 
+.img-proyecto img{
+  max-width: 250px;
+  width: 100%;
+  margin: 20px;
+}
+
+#img-proyecto-fotos.flex-container{ /*Todo pegado para que sea service y tb flex-container*/
+  flex-direction: row; /*Solo eje X*/ 
+  justify-content: center;
+}
+
+.n-producto{
+  text-align: center;
+  font-size: 15px;
+}
+
 footer{
   text-align: center;
   height: 70px;
