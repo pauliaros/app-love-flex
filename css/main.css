@@ -101,18 +101,27 @@ a:hover {
 	font-weight: bold;
 }
 
-.img-proyecto img{
-  max-width: 250px;
+#work{
+  text-align: center;
+  padding: 70px;
+
+}
+
+.img-galeria img{
+  max-width: 300px;
   width: 100%;
   margin: 20px;
 }
 
-#img-proyecto-fotos.flex-container{ /*Todo pegado para que sea service y tb flex-container*/
-  flex-direction: row; /*Solo eje X*/ 
-  justify-content: center;
+#galeria-proyecto.flex-container{ 
+  margin: 40px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+ 
 }
 
-.n-producto{
+p{
   text-align: center;
   font-size: 15px;
 }
@@ -124,6 +133,5 @@ footer{
   color: white;
   justify-content: center;
 	align-items: center;
-
-  padding-top: 7px;
+  
 }
